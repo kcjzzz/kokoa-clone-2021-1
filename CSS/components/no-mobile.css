@@ -1,8 +1,10 @@
 #no-mobile {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   z-index: 99;
   height: 100vh;
-  background-color: var(--yellow);
+  background-color: rgb(174, 174, 255);
   width: 100vw;
   display: flex;
   top: 0;
@@ -11,7 +13,11 @@
   font-size: 22px;
 }
 
-@media screen and (max-width: 645px) {
+#no-mobile img {
+  width: 60%;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 700px) {
   #no-mobile {
     display: none;
   }

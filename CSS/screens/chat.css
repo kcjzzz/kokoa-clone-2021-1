@@ -31,8 +31,7 @@
     opacity: 1;
   }
 }
-
-.main-chat {
+.chats__timestamp {
   margin-top: 180px;
   display: flex;
   flex-direction: column;
@@ -85,6 +84,10 @@
 .message__author {
   opacity: 0.8;
   font-size: 14px;
+}
+
+.message-row {
+  animation: fadeIn 0.8s linear;
 }
 
 .message-row--own {

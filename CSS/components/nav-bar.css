@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #f9f9fa;
+  background-color: #f1ebff;
   padding: 20px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(126, 126, 126, 0.3);
@@ -17,13 +17,13 @@
 }
 
 @keyframes notificationAnimation {
-  0%{
+  0% {
     transform: none;
   }
-  50%{
+  50% {
     transform: translateY(-5px) rotateY(180deg);
   }
-  100%{
+  100% {
     transform: none;
   }
 }
@@ -32,7 +32,7 @@
   position: absolute;
   left: 15px;
   bottom: 15px;
-  animation:notificationAnimation 2s ease-in-out infinite;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 .nav__notice {
   background-color: tomato;
@@ -61,13 +61,13 @@
   animation: appearBtnAnimation 0.3s ease-in-out forwards;
 }
 
-.nav__btn:nth-child(2){
+.nav__btn:nth-child(2) {
   animation-delay: 0.2s;
 }
 
-.nav__btn:nth-child(3){
+.nav__btn:nth-child(3) {
   animation-delay: 0.5s;
 }
-.nav__btn:last-child{
+.nav__btn:last-child {
   animation-delay: 0.8s;
 }
